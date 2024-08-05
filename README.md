@@ -19,7 +19,8 @@
 - [wikibook - 생활코딩](https://wikibook.github.io/html-css-js/html.html)
 - [Opentutorials - 생활코딩](https://opentutorials.org/course/3084)
 
-## 🍅 SQL, PHP, ...
-- ⁇
+## 🍅 Server
+- GitHub Pages
+- Netlify
 
-
+<!-- SQL, PHP, ... -->
