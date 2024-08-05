@@ -8,9 +8,9 @@
 1. Link
   - [wikibook - 생활코딩](https://wikibook.github.io/html-css-js/html.html)
   - [Opentutorials - 생활코딩](https://opentutorials.org/course/3084)
-  - [W3스쿨즈](https://www.w3schools.com/html/)
-  - [MDN](https://developer.mozilla.org/ko/docs/Learn/HTML/Introduction_to_HTML/Getting_started#html%EC%9D%B4%EB%9E%80)
-  - [TCP스쿨](https://www.tcpschool.com/html/intro)
+  - [W3스쿨즈 - HTML](https://www.w3schools.com/html/)
+  - [MDN - HTML](https://developer.mozilla.org/ko/docs/Learn/HTML/Introduction_to_HTML/Getting_started#html%EC%9D%B4%EB%9E%80)
+  - [TCP스쿨 - HTML](https://www.tcpschool.com/html/intro)
 2. 교재
   - https://www.aladin.co.kr/m/mproduct.aspx?ItemId=177467185
 
@@ -18,6 +18,12 @@
 1. Link
   - [wikibook - 생활코딩](https://wikibook.github.io/html-css-js/html.html)
   - [Opentutorials - 생활코딩](https://opentutorials.org/course/3084)
+  - [MDN - CSS](https://developer.mozilla.org/ko/docs/Learn/Getting_started_with_the_web/CSS_basics)
+  - [W3스쿨즈 - CSS](https://www.w3schools.com/css/)
+  - [wikidocs - CSS](https://wikidocs.net/190952)
+  - [WebDev - CSS](https://web.dev/learn/css?hl=ko)
+  - [TCP스쿨](https://www.tcpschool.com/css/intro)
+  - [dinfree - CSS](https://dinfree.com/lecture/frontend/122_css_1.html)
 2. 교재
   - https://www.aladin.co.kr/m/mproduct.aspx?ItemId=177467185
 
