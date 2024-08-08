@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        #grid {
+            border: 5px solid pink;
+            display: grid;
+            /* grid-template-columns: 150px 1fr; The former has designated pixels size and The later has the rest size*/ 
+            /* grid-template-columns: 1fr 1fr;  Two elements have same(=half) size */
+            grid-template-columns: 2fr 1fr; /* The former has 2/3 size and The later has 3/1 of the whole screen */
+        }
+        div {
+            border: 5px solid gray;
+        }
+    </style>
+</head>
+<body>
+    <div id="grid">
+        <div>NAVIGATION</div>
+        <div>ARTICLE</div>
+    </div>
+    <!-- <span>NAVIGATION</span>
+    <span>ARTICLE</span> -->
+</body>
+</html>
