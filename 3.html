@@ -2,17 +2,25 @@
 <html>
   <head>
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-H3E4SCBTPT"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-H3E4SCBTPT"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-  gtag('config', 'G-H3E4SCBTPT');
-</script>
+      gtag('config', 'G-H3E4SCBTPT');
+    </script>
     <title>WEB1 - JavaScript</title>
     <meta charset="utf-8">
     <script>
+      function setColor(color) {
+        var alist = document.querySelectorAll('a');
+          var i = 0;
+          while(i < alist.length) {
+              alist[i].style.color = color;
+              i = i + 1;
+          }
+      }
       function nightDayHandler(self) {
         var target = document.querySelector('body');
         if(self.value === 'night') {
@@ -20,23 +28,13 @@
           target.style.color = 'white';
           self.value = 'day';    // Convert to text 'day'
 
-          var alist = document.querySelectorAll('a');
-          var i = 0;
-          while(i < alist.length) {
-              alist[i].style.color = 'powderblue';
-              i = i + 1;
-          }
+          setColor('powderblue');
         } else {
           target.style.backgroundColor = 'white';
           target.style.color = 'black';
           self.value = 'night';    // Convert to text 'night'
 
-          var alist = document.querySelectorAll('a');
-          var i = 0;
-          while(i < alist.length) {
-              alist[i].style.color = 'blue';
-              i = i + 1;
-          }
+          setColor('blue');
         }
       }
     </script>
@@ -44,9 +42,6 @@
   </head>
   <body>
     <h1><a href="index.html">WEB</a></h1>
-    <input id="night_day" type="button" value="night" onclick="
-      nightDayHandler(this);
-    ">
     <input id="night_day" type="button" value="night" onclick="
       nightDayHandler(this);
     ">
